@@ -1,0 +1,42 @@
+
+body {
+    background-color: #c2cdee;
+    color: #3b3b3b;
+}
+
+.welcome-container {
+    width: 90%;
+    max-width: 960px;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    margin: 3rem auto;
+    padding: 1rem 1.385rem;
+    background-color: #fff;
+    border-radius: 0.875rem;
+    box-shadow: 0px 5px 30px 11px rgba(0,0,0,0.1);
+}
+
+.welcome-container h2 {
+    text-align: center;
+}
+.welcome-container form {
+    width: 380px;
+    max-width: 370px;
+    margin: 2.5rem auto;
+}
+
+.welcome-container form input {
+    margin-bottom: 0.685rem;
+}
+
+.welcome-container p {
+    margin: 1rem 0 0.5rem;
+    text-align: center;
+}
+
+.welcome-container p span {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
